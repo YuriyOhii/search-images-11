@@ -1,3 +1,8 @@
+.notification {
+  text-align: center;
+    display: none;
+}
+
 button {
   margin: 0;
   padding: 0;
@@ -50,7 +55,9 @@ input {
 }
 
 .search:hover,
-.search:focus {
+.search:focus,
+.load-more:focus,
+.load-more:hover {
     background-color: aquamarine;
 }
 
@@ -78,5 +85,3 @@ input {
     justify-content: space-around;
     align-items: center;
 }
-
-.info-item  {}
